@@ -13,8 +13,8 @@ import {styles} from './styles';
 export function ButtonIcon(){
     return(
         <TouchableOpacity style={styles.container}>
-            <View style={styles.iconWrapper}>
-                <Image source={DiscordImg} style={styles.icon} />
+            <View style={styles.iconWrapp}>
+                <Image source={DiscordImg} style={styles.iconWrapp} />
             </View>
 
             <Text style={styles.title}>
