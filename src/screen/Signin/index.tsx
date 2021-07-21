@@ -16,11 +16,10 @@ export function SignIn (){
   return (
     <View style={styles.container}>
       <StatusBar
-        backgroundColor="trasparent"
         translucent
       />
 
-     <Image 
+<Image 
      source={IllustrationImg}
      style={styles.image}
      resizeMode="stretch"
@@ -37,7 +36,10 @@ export function SignIn (){
           Crie grupos para jogar seus games{'\n'}
           favoritos com seus amigos
         </Text>
-        <ButtonIcon/>
+        <ButtonIcon 
+        title = "Entre com Discord"
+        activeOpacity ={0.8}
+        />
 
       
       </View>    

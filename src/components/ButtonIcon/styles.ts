@@ -16,15 +16,15 @@ export const styles = StyleSheet.create({
         fontSize: 15,
         textAlign: 'center',
     },
-    /*iconWrapp:{
-       width: 25,
-         height: 25,
-        /*justifyContent: 'center',
+    iconWrapp:{
+       width: 56,
+         height: 56,
+        justifyContent: 'center',
         alignItems: 'center',
         marginLeft: 5,
         borderRightWidth:1,
         borderColor: theme.colors.line
-    },*/
+    },
 
 
 });
